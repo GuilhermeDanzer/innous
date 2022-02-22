@@ -95,7 +95,11 @@ function App() {
         </>
       ) : (
         <div>
-          <button onClick={() => setShowAlbums(true)}>Show Albums</button>
+          <button
+            className="dark-theme-button"
+            onClick={() => setShowAlbums(true)}>
+            Show Albums
+          </button>
         </div>
       )}
     </div>
